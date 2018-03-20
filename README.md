@@ -24,7 +24,7 @@ sbt -Dignore-deprecation=true clean compile
 
 Rise compile error when warnings excluding deprecation.
 
-![ci-mode](./assets/ci-mode.png)
+![ci-mode](assets/ci-mode.png)
 
 ## Non CI mode
 ```bash
@@ -32,7 +32,7 @@ sbt clean compile
 ```
 
 Warn including deprecation.
-![non-ci-mode](./assets/non-ci-mode.png)
+![non-ci-mode](assets/non-ci-mode.png)
 
 ## Development
 
