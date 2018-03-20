@@ -19,10 +19,10 @@ lazy val root = (project in file(".")).
 
 ## CI mode
 ```bash
-sbt -Dignore-deprecated=true clean compile
+sbt -Dignore-deprecation=true clean compile
 ```
 
-Rise compile error when warnings excluding deprecated.
+Rise compile error when warnings excluding deprecation.
 
 ![ci-mode](./assets/ci-mode.png)
 
@@ -31,7 +31,7 @@ Rise compile error when warnings excluding deprecated.
 sbt clean compile
 ```
 
-Warn including deprecated.
+Warn including deprecation.
 ![non-ci-mode](./assets/non-ci-mode.png)
 
 ## Development
