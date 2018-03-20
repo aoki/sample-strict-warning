@@ -1,12 +1,11 @@
-import Dependencies._
+import com.ringohub.sbt.StrictWarningPlugin.scalaCompileOptions
 
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
-      organization := "com.example",
-      scalaVersion := "2.12.3",
-      version      := "0.1.0-SNAPSHOT"
+      organization := "com.ringohub",
+      version      := "0.1.0-SNAPSHOT",
+      scalacOptions := scalaCompileOptions
     )),
-    name := "Hello",
-    libraryDependencies += scalaTest % Test
+    name := "Hello"
   )
